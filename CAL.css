@@ -1,0 +1,254 @@
+.MainTop 
+{   
+    padding: 15px;
+    border-radius: 0px;
+    border: solid white;
+  
+    font-family: "Quicksand", sans-serif;
+  
+}
+.MainTop h1 
+{
+  padding:25px;
+  text-align:center;
+  color: white;
+  font-size: 3.4rem;
+  border: solid white;
+  
+  font-family: "Quicksand", sans-serif;
+ text-transform: uppercase;
+ box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+/*
+.MainTop h3
+{
+  text-align:center;
+  color:rgba(228, 156, 168, 0.877);
+    font-size: 2.4rem;
+    border: solid white;
+    background-color: white;
+    padding-bottom: 10px;
+}
+*/
+
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    padding: 0px;
+    background-color: rgba(136, 191, 212, 0.925);
+    
+  }
+  
+  .container {
+    
+    outline: solid white;
+    width: 100%;
+    height: 100vh;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calendar:hover
+  {
+    transform:scale(1.5);
+    outline: white solid;
+  }
+  
+  .calendar {
+    
+    width: 45rem;
+    height: 52rem;
+    background-color:rgba(228, 156, 168, 0.877);
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  }
+  
+  .month {
+    width: 100%;
+    height: 12rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    background-color: rgba(123, 183, 207, 0.863);
+  }
+  
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .month p {
+    font-size: 1.6rem;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+
+  
+  .days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem / 7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(.today) {
+    background-color:  rgba(123, 183, 207, 0.863);
+    border: 0.2rem solid #777;
+    border: solid white;
+    cursor: pointer;
+    transform: scale(1.18);
+  }
+  
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+  
+  .today {
+    border: solid white;
+    background-color: rgba(219, 192, 40, 0.425);
+  }
+  .today:hover {
+    cursor: pointer;
+    transform: scale(1.18);
+  }
+
+  .VDO
+{
+  outline: solid white;
+  text-align: center;
+  padding: 65px;
+ 
+  
+}
+.VDO video:hover
+{
+  padding: 15px;
+  transform:scale(1.5);
+  border:solid white;
+  background-color:rgba(228, 156, 168, 0.877);
+}
+
+
+#sider
+{
+  padding:15px;
+  
+}
+
+@media (max-width: 600px)
+ {
+  html { font-size: 12px;}
+
+  .calendar
+  {
+    transform:scale(0.7);
+  }
+
+  .calendar:hover
+  {
+    transform:scale(0.8);
+    outline: white solid;
+  }
+
+  .VDO 
+  {
+    transform:scale(0.7);
+  }
+  .VDO video:hover
+  {
+    transform:scale(1.7);
+  }
+
+  .MainTop
+  {
+    transform:scale(0.8);
+  }
+
+ }
+
+.our
+{
+  display:none;
+}
+
+.CatCunt
+{
+  padding:25px;
+  text-align:center;
+  margin-bottom: 15px;
+}
+.CAT
+{
+  padding:25px;
+  display:block;
+  width: 250px;
+  margin:auto;
+}
+
+.MAINBUT
+{
+  height:50px;
+  width:50px;
+}
+
+.linker
+{
+  padding:25px;
+  text-align:left;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  
+}
